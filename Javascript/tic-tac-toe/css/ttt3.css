@@ -1,0 +1,45 @@
+body {
+  background-color: wheat;
+}
+.item {
+  border: 2px solid #ccc;
+  background-color: lightyellow;
+  border-radius: 5px;
+  justify-self: center;
+  align-self: center;
+  height: 156px;
+  width: 156px;
+}
+#gameBoard {
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  grid-template-rows: 160px 160px 160px;
+  grid-auto-flow: row;
+  justify-content: center;    
+  column-gap: 10px; 
+  row-gap: 10px;  
+  margin-top: 16vh;
+}
+svg {
+  width: 154px;
+  height: 154px;
+  stroke-width: 12; 
+  fill: lightyellow;
+}
+svg path { 
+  stroke: red;  
+  stroke-linecap: round;
+  stroke-linejoin: round; 
+}
+svg circle {
+  stroke: black;  
+}
+.shape-o { display:none; }
+.shape-x { display:none; } 
+/*
+#item-1 .shape-x { display:block; }
+#item-4 .shape-o { display:block; }
+#item-3 .shape-x { display:block; } 
+#item-7 .shape-x { display:block; }
+#item-5 .shape-o { display:block; }
+*/

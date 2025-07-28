@@ -1,0 +1,172 @@
+
+html {   
+	min-width: 450px;
+	max-width: 850px; 
+	margin: 0 auto;  
+	font-family: Helvetica,Arial,sans-serif;  
+	color: rgba(48, 69, 92, 0.8);  
+}  
+
+header h1 { 
+    padding: 25px 20px 0px 20px;
+}
+
+header h2 {
+	background-color: #ccc;
+	height: 40px;
+	padding: 25px 20px 10px 20px;
+	
+}
+
+#control {
+	background-color: #777;
+    margin: -20px 0 0 0;
+	text-align: right;
+}
+
+main {
+	width: 80%;
+	margin: 10px auto;
+}
+
+#msgError {
+	color: red;
+	height: 20px;
+	overflow: auto;
+}
+
+#loggedUser {
+	text-align: right;
+}
+
+#loggedUser span {
+	color: green;
+}
+
+#Index,
+#Users {
+	line-height: 33px;  
+	padding-right: 5px;
+}
+
+#create-todo-list { margin-top: 20px; }
+
+textarea {
+	height: 65px; 
+	width: 250px;
+}
+
+legend {
+	font-size: 20px;
+}
+
+form {
+	margin: 0;
+}
+
+.hidden {
+	display:none;
+	overflow:hidden;
+}
+
+
+.missing:after {
+	content: ' * ';
+	color: red;
+}
+
+.todo-list-name {
+	width: 50%;
+	text-align: left;
+}
+
+input[type='checkbox']:checked {
+	accent-color: green;
+}
+
+.demo {  
+	background-color: #BBB;  
+}  
+.demo .h-label {  
+	padding: 5px 20px;  
+	display: block;  
+	/* width: 95%; */
+	cursor: pointer;  
+	line-height: 33px;  
+	font-size: 18px;  
+	background: #EFEFE0;  
+	border: 1px solid #CCF;  
+	position: relative;					
+}
+.newListName,
+.listname {
+	position: relative;					
+}	
+input#inputNewListName {
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+.demo .h-label:hover {  
+	background: #BB8;
+}
+.demo input + .h-label {  
+	-webkit-transition: all 0.8s ease-in-out;  
+	-moz-transition: all 0.8s ease-in-out;  
+	-o-transition: all 0.8s ease-in-out;  
+	-ms-transition: all 0.8s ease-in-out;  
+	transition: all 0.8s ease-in-out;  
+}  
+.demo input:checked + .h-label,  			/*  Acsent */
+.demo input:checked + .h-label:active {  
+	background-color: rgba(79, 79, 79, 0.5) !important;  
+	color: #EEE;  
+} 
+.demo input.h-input {  						/* hide input - checkbox */  
+	display: none;  
+}
+.h-sublist li{
+	position: relative; 
+	color:orange;
+	list-style-type: none;
+}
+
+.sub-input {
+	position: absolute;  
+	right: 30px;
+}
+
+.edit-list-btn  {
+	color: blue;
+	position: absolute;  
+	right: 10px;
+	top: 26%;
+}
+		  
+.demo .article {  							/* hide article */ 
+	background: rgb(240, 240, 240);  
+	overflow: hidden;  
+	height: 0px;  
+
+	-webkit-transition: .7s ease;  
+	-moz-transition: .7s ease;  
+	-o-transition: .7s ease;  
+	transition: .7s ease; 
+}
+	
+.demo input:checked ~ .article.h-content {		/* show article */  
+	height: auto;    
+}
+  
+.add-task-btn {
+}
+
+.terms-of-use {
+	display: inline;
+}
+
+.through {
+    text-decoration: line-through;
+    color: green;
+}

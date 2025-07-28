@@ -1,0 +1,29 @@
+
+* Window.localStorage
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
+
+* Window localStorage Property
+https://www.w3schools.com/jsref/prop_win_localstorage.asp
+
+* HTML Web Storage API
+https://www.w3schools.com/html/html5_webstorage.asp
+
+
+* LocalStorage, sessionStorage
+https://javascript.info/localstorage
+
+
+* localStorage in JavaScript: A complete guide
+https://blog.logrocket.com/localstorage-javascript-complete-guide/
+
+
+* How to Use Local Storage with JavaScript
+https://www.section.io/engineering-education/how-to-use-localstorage-with-javascript/
+
+
+* How to use localStorage in JavaScript
+https://www.educative.io/edpresso/how-to-use-localstorage-in-javascript
+
+
+https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage
